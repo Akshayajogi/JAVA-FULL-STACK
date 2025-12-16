@@ -1,0 +1,24 @@
+/* Styling for the div with the ID "box" */
+#box {
+    /* Set the background color to a pleasant blue */
+    background-color: #3498db; /* You can change this to any color name or hex code */
+
+    /* Optional: Add padding so the text isn't stuck to the edges */
+    padding: 20px;
+
+    /* Optional: Change text color for better readability against the background */
+    color: white;
+
+    /* Optional: Center the text */
+    text-align: center;
+
+    /* Optional: Give it a width and margin to center the box itself on the page */
+    width: 50%;
+    margin: 50px auto;
+
+    /* Optional: Add some rounded corners */
+    border-radius: 8px;
+
+    /* Optional: Add a shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
