@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #e0e6ec; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    
+    <div style="background-color: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); width: 450px;">
+        
+        <h1 style="font-style: normal; text-align: center; color: #333; margin-bottom: 30px;">REGISTRATION FORM</h1>
+        
+        <form action="#" method="POST">
+            
+            <!-- First Name -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="first-name" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">First Name</label>
+                <input type="text" id="first-name" name="first-name" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="last-name" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Last Name</label>
+                <input type="text" id="last-name" name="last-name" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Email -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="email" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Email</label>
+                <input type="email" id="email" name="email" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Password -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="password" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Password</label>
+                <input type="password" id="password" name="password" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Gender</label>
+                <div style="display: flex; gap: 15px;">
+                    <label style="display: flex; align-items: center; gap: 5px; color: #555;">
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 5px; color: #555;">
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                    <label style="display: flex; align-items: center; gap: 5px; color: #555;">
+                        <input type="radio" name="gender" value="others"> Others
+                    </label>
+                </div>
+            </div>
+
+            <!-- Age -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="age" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Age</label>
+                <input type="number" id="age" name="age" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+
+            <!-- Preferences -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 10px; color: #555;">Preferences:</label>
+                <div style="display: flex; flex-direction: column; gap: 5px; padding-left: 20px;">
+                    <label style="color: #555;">
+                        <input type="checkbox" name="preferences" value="acrylic"> Acrylic painting
+                    </label>
+                    <label style="color: #555;">
+                        <input type="checkbox" name="preferences" value="oil"> Oil painting
+                    </label>
+                    <label style="color: #555;">
+                        <input type="checkbox" name="preferences" value="watercolor"> Water colour painting
+                    </label>
+                </div>
+            </div>
+
+            <!-- Occupation -->
+            <div class="form-group" style="display: flex; align-items: center; margin-bottom: 15px;">
+                <label for="occupation" style="flex: 0 0 120px; text-align: left; margin-right: 15px; color: #555;">Select Occupation</label>
+                <select id="occupation" name="occupation" style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff;">
+                    <option value="student">Student</option>
+                    <option value="employee">Employee</option>
+                </select>
+            </div>
+
+            <!-- Bio -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="bio" style="display: block; margin-bottom: 10px; color: #555;">Bio:</label>
+                <textarea id="bio" rows="4" cols="30" placeholder="Akshaya - A frontend developer." style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;"></textarea>
+            </div>
+
+            <!-- Buttons -->
+            <div style="display: flex; justify-content: space-between; gap: 10px;">
+                <input type="submit" value="Submit" style="flex: 1; padding: 12px; background-color: #007BFF; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);">
+                <input type="reset" value="Reset" style="flex: 1; padding: 12px; background-color: #6c757d; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
